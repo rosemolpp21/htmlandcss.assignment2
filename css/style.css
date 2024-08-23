@@ -3,11 +3,10 @@ body {
 }
 .div-container1 h1 {
   color: #a38d71;
-  padding: 0 200 0 200;
+
   text-align: center;
 }
 .paragraph1 {
-  align-items: center;
   text-align: center;
   font-size: 16px;
   color: #000000;
@@ -22,7 +21,6 @@ body {
   padding-right: 100px;
 }
 .div-container2 p {
-  align-items: center;
   padding-right: 100px;
 }
 .div-container2 h1 span {
