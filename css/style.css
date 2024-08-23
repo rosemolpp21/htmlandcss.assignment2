@@ -1,54 +1,44 @@
 body {
   margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
-.div-container1 h1 {
+.firstheader {
   color: #a38d71;
-
   text-align: center;
 }
 .paragraph1 {
   text-align: center;
   font-size: 16px;
   color: #000000;
-  margin: 0 0 20px;
 }
-.div-container2 {
+.mainbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.image1-container2 {
   display: flex;
   flex-direction: row;
   background-color: #edf2f6;
+  gap: 20px;
   text-align: left;
-  width: 100%;
-  padding-right: 100px;
+  padding: 40px 40px 40px 40px;
 }
-.div-container2 p {
-  padding-right: 100px;
-}
-.div-container2 h1 span {
+.image1-container2 h1 span {
   color: #b46744;
 }
-
-.div-container2 img {
-  padding-left: 190px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 500px;
+.image1-container2 img {
+  width: 400px;
   height: 300px;
 }
-.div-container2-1 {
+.image1-container2-1 {
   display: flex;
   flex-direction: column;
-  padding-left: 40px;
 }
 
-.div-container3 {
-  padding-left: 90px;
-  padding-right: 60px;
-  padding-top: 20px;
-  align-items: center;
-}
-.div-container3 img {
-  width: 1140px;
-  height: 400px;
-  padding-left: 100px;
-  padding-top: 10px;
+.container3 img {
+  width: 920px;
+  height: 200px;
 }
