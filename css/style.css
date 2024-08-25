@@ -1,8 +1,8 @@
 body {
-  margin: 0;
   overflow: hidden;
 }
 .first-section {
+  max-width: 100%;
   text-align: center;
   padding: 20px;
 }
@@ -19,21 +19,21 @@ body {
   max-width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
+}
+
+.middle-sub-section {
+  padding: 40px 0 40px 0;
+  max-width: 1000px;
+  display: flex;
+  flex: 2;
+  gap: 40px;
+  justify-content: center;
 }
 .middle-sub-section img,
 .middle-sub-section .second-paragraph {
   width: 50%;
   height: 250px;
-}
-
-.middle-sub-section {
-  padding: 40px;
-  max-width: 1020px;
-  display: flex;
-  flex: 2;
-  gap: 40px;
-  justify-content: center;
 }
 .second-paragraph h1 span {
   color: rgb(166, 99, 23);
@@ -44,6 +44,5 @@ body {
   justify-content: center;
 }
 .third-section img {
-  padding-left: 40px;
-  width: 1020px;
+  width: 1000px;
 }
