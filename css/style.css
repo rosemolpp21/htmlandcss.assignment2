@@ -1,5 +1,5 @@
 body {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .first-section {
   max-width: 100%;
@@ -34,7 +34,6 @@ body {
 .middle-sub-section img,
 .middle-sub-section .second-paragraph {
   width: 50%;
-  object-fit: cover;
 }
 .second-paragraph h1 span {
   color: rgb(166, 99, 23);
@@ -46,5 +45,4 @@ body {
 }
 .third-section img {
   width: 1000px;
-  object-fit: cover;
 }
