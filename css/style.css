@@ -23,7 +23,7 @@ body {
 }
 
 .middle-sub-section {
-  padding: 40px 0 40px 0;
+  padding: 40px 10px 40px 10px;
   max-width: 1000px;
   max-height: 330px;
   display: flex;
@@ -39,10 +39,11 @@ body {
   color: rgb(166, 99, 23);
 }
 .third-section {
-  padding: 10px;
+  
   display: flex;
   justify-content: center;
 }
 .third-section img {
-  width: 1000px;
+  padding: 10px;
+  max-width: 1000px;
 }
